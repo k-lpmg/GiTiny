@@ -1,0 +1,14 @@
+.DS_Store
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# Podfiles
+Pods/
+
+# Carthage
+Carthage/Build
+Carthage/Checkouts
+
+# Certificate
+certificate

@@ -1,0 +1,22 @@
+disabled_rules:
+  - force_cast
+  - force_try
+  - function_body_length
+  - todo
+  - identifier_name
+  - trailing_whitespace
+  - type_body_length
+  - line_length
+  - comma
+  - multiple_closures_with_trailing_closure
+  - nesting
+  - fallthrough
+excluded:
+  - Carthage
+  - Pods
+file_length:
+  warning: 500
+  error: 1500
+cyclomatic_complexity:
+  warning: 20
+  error: 50  

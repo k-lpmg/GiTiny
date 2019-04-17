@@ -1,0 +1,98 @@
+PODS:
+  - AcknowList (1.8)
+  - Alamofire (4.8.2)
+  - AwaitToast (1.1.1)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Differentiator (3.1.0)
+  - Fabric (1.9.0)
+  - FluidHighlighter (1.0.1)
+  - Kingfisher (5.3.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - PanModal (1.2.2)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - RealmSwift (3.14.1):
+    - Realm (= 3.14.1)
+  - RealmWrapper (1.2.0):
+    - RealmSwift
+  - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxGesture (2.2.0):
+    - RxCocoa (~> 4.5)
+    - RxSwift (~> 4.5)
+  - RxSwift (4.5.0)
+  - SwiftLint (0.31.0)
+
+DEPENDENCIES:
+  - AcknowList
+  - AwaitToast
+  - Crashlytics
+  - Fabric
+  - FluidHighlighter
+  - Kingfisher (~> 5.0)
+  - Moya/RxSwift (~> 12.0)
+  - PanModal
+  - RealmWrapper
+  - RxDataSources (~> 3.0)
+  - RxGesture
+  - RxSwift
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AcknowList
+    - Alamofire
+    - AwaitToast
+    - Crashlytics
+    - Differentiator
+    - Fabric
+    - FluidHighlighter
+    - Kingfisher
+    - Moya
+    - PanModal
+    - Realm
+    - RealmSwift
+    - RealmWrapper
+    - Result
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxSwift
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  AcknowList: 5b8820004d019d0a8d6a091ea2392dcb54bd3ad2
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AwaitToast: f4f0769e341830557d46adc31456fe8ec297c45a
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  FluidHighlighter: 5e1e9eaec7978e8d2230532c2d7727f5bae66682
+  Kingfisher: d9e7e0b209b59b8f9873aa2f37654e81a7beea51
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  PanModal: db200380a267634f746f8dea550dc3d1df017fc0
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
+  RealmWrapper: 701d06eb4d7fbfa7e6aa3e09b17ad60644dee12b
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxGesture: c1b7bf17166b0ef9d642a9510f8bac5785f18990
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+
+PODFILE CHECKSUM: 8494b8c9be1d01df0abf224fbcb343eb36fa9ed9
+
+COCOAPODS: 1.6.1

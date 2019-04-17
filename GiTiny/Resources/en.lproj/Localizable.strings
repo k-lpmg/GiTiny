@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  GiTiny
+
+  Created by DongHeeKang on 26/03/2019.
+  Copyright © 2019 k-lpmg. All rights reserved.
+*/
+
+// Trending
+"Trending" = "Trending";
+"See what the GitHub community is most excited about today." = "See what the GitHub community is most excited about today.";
+"See what the GitHub community is most excited about this week." = "See what the GitHub community is most excited about this week.";
+"See what the GitHub community is most excited about this month." = "See what the GitHub community is most excited about this month.";
+
+"These are the organizations and developers building the hot tools today." = "These are the organizations and developers building the hot tools today.";
+"These are the organizations and developers building the hot tools this week." = "These are the organizations and developers building the hot tools this week.";
+"These are the organizations and developers building the hot tools this month." = "These are the organizations and developers building the hot tools this month.";
+
+"All Languages" = "All Languages";
+"Select Languages" = "Select Languages";
+"Search" = "Search";
+"Close" = "Close";
+"All" = "All";
+"Popular" = "Popular";
+"Other" = "Other";
+
+"Today" = "Today";
+"today" = "today";
+"This week" = "This week";
+"this week" = "this week";
+"This month" = "This month";
+"this month" = "this month";
+
+// Search
+"Search" = "Search";
+
+// MyProfile
+"My Profile" = "My Profile";
+"The GitHub API is limited to 60 API requests per hour if not authenticated.\n(If you are authenticated, 5000 API calls per hour are possible.)" = "The GitHub API is limited to 60 API requests per hour if not authenticated.\n(If you are authenticated, 5000 API calls per hour are possible.)";
+"Sign in with GitHub" = "Sign in with GitHub";
+
+// Setting
+"Setting" = "Setting";
+"Dark Theme" = "Dark Theme";
+"Start of the Repository to README" = "Start of the Repository to README";
+"OpenSource Licenses" = "OpenSource Licenses";
+"Logout" = "Logout";
+
+// General
+"Cancel" = "Cancel";

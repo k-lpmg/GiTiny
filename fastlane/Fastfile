@@ -1,0 +1,51 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  lane :bump_version do
+    version_number = get_version_number(xcodeproj: "GiTiny.xcodeproj", target: "GiTiny")
+    build_number = get_build_number(xcodeproj: "GiTiny.xcodeproj")
+    complete_version_number = version_string(version_number, build_number)
+
+    commit_version_bump message: "Bump version to #{complete_version_number}"
+  end
+
+  lane :beta do
+    clearCache
+    build
+    pilot(skip_waiting_for_build_processing: true)
+  end
+
+  lane :store do
+    clearCache
+    build
+    appstore(skip_screenshots: true)
+  end
+end
+
+def clearCache
+  clear_derived_data
+  clean_cocoapods_cache
+end
+
+def build
+  build_app(workspace: "GiTiny.xcworkspace", scheme: "GiTiny", clean: true, configuration: "Release")
+end
+
+def version_string(version_number, build_number)
+  "#{version_number} (#{build_number})"
+end

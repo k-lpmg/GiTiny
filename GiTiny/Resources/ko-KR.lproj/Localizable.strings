@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  GiTiny
+
+  Created by DongHeeKang on 26/03/2019.
+  Copyright © 2019 k-lpmg. All rights reserved.
+*/
+
+// Trending
+"Trending" = "트렌딩";
+"See what the GitHub community is most excited about today." = "오늘 GitHub 커뮤니티에서 가장 트렌드한 Repository를 확인해보세요.";
+"See what the GitHub community is most excited about this week." = "이번 주 GitHub 커뮤니티에서 가장 트렌드한 Repository를 확인해보세요.";
+"See what the GitHub community is most excited about this month." = "이번 달 GitHub 커뮤니티에서 가장 트렌드한 Repository를 확인해보세요.";
+
+"These are the organizations and developers building the hot tools today." = "오늘 트렌드한 Tool을 만드는 조직 및 개발자들입니다.";
+"These are the organizations and developers building the hot tools this week." = "이번 주 트렌드한 Tool을 만드는 조직 및 개발자들입니다.";
+"These are the organizations and developers building the hot tools this month." = "이번 달 트렌드한 Tool을 만드는 조직 및 개발자들입니다.";
+
+"Repositories" = "저장소";
+"Developers" = "개발자";
+
+"All Languages" = "모든 언어";
+"Select Languages" = "언어 선택";
+"Search" = "검색";
+"Close" = "닫기";
+"All" = "모든";
+"Popular" = "인기 있는";
+"Other" = "기타";
+
+"Today" = "오늘";
+"today" = "오늘";
+"This week" = "이번 주";
+"this week" = "이번 주";
+"This month" = "이번 달";
+"this month" = "이번 달";
+
+// Search
+"Search" = "검색";
+
+"Users" = "사용자";
+"See more" = "더보기";
+
+// MyProfile
+"My Profile" = "나의 정보";
+"The GitHub API is limited to 60 API requests per hour if not authenticated.\n(If you are authenticated, 5000 API calls per hour are possible.)" = "GitHub API는 인증되지 않은 경우 시간당 60건의 API 요청으로 제한됩니다.\n(인증을 하게되면 시간당 5000건의 API 호출이 가능합니다.)";
+"Sign in with GitHub" = "GitHub로 로그인";
+
+// Setting
+"Setting" = "설정";
+"Dark Theme" = "어두운 테마";
+"Start of the Repository to README" = "Repository의 시작이 README";
+"OpenSource Licenses" = "오픈소스 라이선스";
+"Logout" = "로그아웃";
+
+// General
+"Cancel" = "취소";

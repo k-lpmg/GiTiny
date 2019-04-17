@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>clientID</key>
+	<string>67b9b264af5170eaca47</string>
+	<key>clientSecret</key>
+	<string>5534657efb7ff07e6efe8b2c8dcb872e8df98748</string>
+	<key>callbackURL</key>
+	<string></string>
+</dict>
+</plist>
