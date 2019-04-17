@@ -1,5 +1,5 @@
 <p align="center">
-<img src="images/logo.png">
+<img src="images/logo.png" width="600">
 <br/>
 GiTiny is iOS app for GitHub with exploring trending.
 <br/>
