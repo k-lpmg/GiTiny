@@ -6,4 +6,4 @@
 //  Copyright © 2019 k-lpmg. All rights reserved.
 //
 
-let APP_GROUP_ID = "group.k-lpmg.GiTiny"
+let APP_GROUP_ID = "group.kanglpmg.GiTiny"
