@@ -86,4 +86,5 @@ open GiTiny.xcworkspace/
 ## Design
 
 * All Icons - [Icons8](https://icons8.com/app/) 
-* AppIcon, Logo, Screenshots, Design support - Kim YuSung
+* App Icon, Logo, Screenshots, Design support - YuSung Kimg
+* App name - MinHyuck Lee
