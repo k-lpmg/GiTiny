@@ -14,6 +14,10 @@ Written in RxSwift and MVVM-C architecture.
 <img src="https://img.shields.io/badge/platforms-ios-black.svg">
 </p>
 
+<p align="center">
+<a href="https://itunes.apple.com/app/tiny-github/id1461424565"><img src="images/app-store.png" width="180" ></a>
+</p>
+
 |         | Features  |
 ----------|-----------------
 :fire: | Explore Trending Repositories and Developers
