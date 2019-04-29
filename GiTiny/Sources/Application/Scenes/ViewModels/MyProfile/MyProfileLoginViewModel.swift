@@ -32,7 +32,7 @@ final class MyProfileLoginViewModel {
         urlComponents.host = "github.com"
         urlComponents.path = "/login/oauth/authorize"
         let clientIDQuery = URLQueryItem(name: "client_id", value: GitHubAccessManager.clientID)
-        let scopeQuery = URLQueryItem(name: "scope", value: "user+repo+notifications")
+        let scopeQuery = URLQueryItem(name: "scope", value: "user")
         urlComponents.queryItems = [clientIDQuery, scopeQuery]
         return urlComponents.url!
     }
