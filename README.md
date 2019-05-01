@@ -7,11 +7,20 @@ Written in RxSwift and MVVM-C architecture.
 </p>
 
 <p align="center">
-<a href="https://travis-ci.org/k-lpmg/GiTiny"><img src="https://api.travis-ci.org/k-lpmg/GiTiny.svg?branch=master"></a>
-<a href="https://github.com/ReactiveX/RxSwift"><img src="https://img.shields.io/badge/reactive-RxSwift-ef008b.svg"></a>
-<a href="https://github.com/sergdort/CleanArchitectureRxSwift"><img src="https://img.shields.io/badge/architecture-MVVM--C-brightgreen.svg"></a>
-<img src="https://img.shields.io/badge/Swift-4.2-orange.svg">
-<img src="https://img.shields.io/badge/platforms-ios-black.svg">
+    <a href="https://travis-ci.org/k-lpmg/GiTiny">
+        <img src="https://api.travis-ci.org/k-lpmg/GiTiny.svg?branch=master">
+    </a>
+    <a href="https://github.com/k-lpmg/GiTiny/releases">
+    <img src="https://img.shields.io/github/release/k-lpmg/GiTiny.svg" alt="Version">
+    </a>
+    <a href="https://github.com/ReactiveX/RxSwift">
+        <img src="https://img.shields.io/badge/reactive-RxSwift-ef008b.svg"
+    </a>
+    <a href="https://github.com/sergdort/CleanArchitectureRxSwift">
+        <img src="https://img.shields.io/badge/architecture-MVVM--C-brightgreen.svg">
+    </a>
+    <img src="https://img.shields.io/badge/Swift-4.2-orange.svg">
+    <img src="https://img.shields.io/badge/platforms-ios-black.svg">
 </p>
 
 <p align="center">
