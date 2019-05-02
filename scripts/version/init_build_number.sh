@@ -1,3 +1,3 @@
 cd ../..
 
-agvtool new-version 1
+agvtool new-version 0
