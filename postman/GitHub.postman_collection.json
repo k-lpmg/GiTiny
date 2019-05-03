@@ -1,0 +1,393 @@
+{
+	"info": {
+		"_postman_id": "37cdc4a8-f279-4364-a28a-1ded2f0ae0a5",
+		"name": "GitHub",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Events",
+			"item": [
+				{
+					"name": "Events",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://api.github.com/events"
+					},
+					"response": []
+				},
+				{
+					"name": "User Received Events",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.github.com/users/k-lpmg/received_events?page=1&per_page=100",
+							"protocol": "https",
+							"host": [
+								"api",
+								"github",
+								"com"
+							],
+							"path": [
+								"users",
+								"k-lpmg",
+								"received_events"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1",
+									"description": "following Event는 넘어오지 않는다."
+								},
+								{
+									"key": "per_page",
+									"value": "100"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Starred",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://api.github.com/user/starred/nekonora/TaggerKit"
+					},
+					"response": []
+				},
+				{
+					"name": "Starred",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://api.github.com/user/starred/nekonora/TaggerKit"
+					},
+					"response": []
+				},
+				{
+					"name": "Starred",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://api.github.com/user/starred/nekonora/TaggerKit"
+					},
+					"response": []
+				},
+				{
+					"name": "Following",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://api.github.com/user/following/devxoul"
+					},
+					"response": []
+				},
+				{
+					"name": "Following",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://api.github.com/user/following/swift-ci"
+					},
+					"response": []
+				},
+				{
+					"name": "Following",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://api.github.com/user/following/swift-ci"
+					},
+					"response": []
+				},
+				{
+					"name": "User",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://api.github.com/user"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Search",
+			"item": [
+				{
+					"name": "Search Repositories",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.github.com/search/repositories?q=swift&sort=starts",
+							"protocol": "https",
+							"host": [
+								"api",
+								"github",
+								"com"
+							],
+							"path": [
+								"search",
+								"repositories"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "swift"
+								},
+								{
+									"key": "sort",
+									"value": "starts",
+									"description": "starts, forks"
+								},
+								{
+									"key": "order",
+									"value": "asc",
+									"description": "asc, desc",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Users",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.github.com/search/users?q=swift",
+							"protocol": "https",
+							"host": [
+								"api",
+								"github",
+								"com"
+							],
+							"path": [
+								"search",
+								"users"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "swift"
+								},
+								{
+									"key": "order",
+									"value": "desc",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "followers",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User Detail",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://api.github.com/users/devxoul"
+					},
+					"response": []
+				},
+				{
+					"name": "Repository Detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://api.github.com/repos/apple/swift"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User Page",
+			"item": [
+				{
+					"name": "Users Repo",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 394aa995b1cb9636f395aa466ad1c8e55273dea1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.github.com/users/devxoul/repos?sort=pushed&direction=desc",
+							"protocol": "https",
+							"host": [
+								"api",
+								"github",
+								"com"
+							],
+							"path": [
+								"users",
+								"devxoul",
+								"repos"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "pushed"
+								},
+								{
+									"key": "direction",
+									"value": "desc"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
