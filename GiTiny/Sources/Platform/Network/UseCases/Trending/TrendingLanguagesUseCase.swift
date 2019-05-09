@@ -11,11 +11,10 @@ import RxCocoa
 
 final class TrendingLanguagesUseCase {
     
-    private let provider = MoyaProvider<TrendingService>()
+    private let provider = GiTinyProvider<TrendingService>()
     
     func getTrendingLanguages() -> Driver<[LanguagesSection]> {
-        return provider.rx.request(.languages)
-            .map(TrendingLanguages.self)
+        return provider.request(TrendingLanguages.self, token: .languages)
             .map({ (response) -> [LanguagesSection] in
                 var popularItems = [LanguageSectionItem]()
                 response.popular.forEach { language in

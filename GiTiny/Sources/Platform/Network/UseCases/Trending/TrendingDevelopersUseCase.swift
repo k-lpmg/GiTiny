@@ -11,11 +11,10 @@ import RxCocoa
 
 final class TrendingDevelopersUseCase {
     
-    private let provider = MoyaProvider<TrendingService>()
+    private let provider = GiTinyProvider<TrendingService>()
     
     func getDevelopers(language: String?, since: Since?, fetching: PublishRelay<Bool>) -> Driver<[TrendingDeveloper]> {
-        return self.provider.rx.request(.developers(language: language, since: since))
-            .map([TrendingDeveloper].self)
+        return provider.request([TrendingDeveloper].self, token: .developers(language: language, since: since))
             .do(onSuccess: { (_) in
                 fetching.accept(false)
             }, onError: { (_) in

@@ -11,11 +11,10 @@ import RxCocoa
 
 final class SearchUserTableViewCellUseCase {
     
-    private let provider = MoyaProvider<GitHubService>()
+    private let provider = GiTinyProvider<GitHubService>()
     
     func getUser(username: String) -> Driver<User> {
-        return provider.rx.request(.user(username: username))
-            .map(User.self)
+        return provider.request(User.self, token: .user(username: username))
             .asDriverOnErrorJustNever()
     }
     

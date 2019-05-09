@@ -11,7 +11,7 @@ import RxCocoa
 
 final class SearchUsersTableUseCase {
     
-    private let provider = MoyaProvider<GitHubSearchService>()
+    private let provider = GiTinyProvider<GitHubSearchService>()
     
     func getUsersResponse(query: String, sort: GitHubSearchService.UsersSort, page: Int, perPage: Int) -> Driver<Response> {
         return provider.rx.request(.users(query: query, sort: sort, page: page, perPage: perPage)).asDriverOnErrorJustNever()

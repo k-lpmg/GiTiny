@@ -11,11 +11,10 @@ import RxCocoa
 
 final class UserProfileUseCase {
     
-    private let provider = MoyaProvider<GitHubUserService>()
+    private let provider = GiTinyProvider<GitHubUserService>()
     
     func getUser(accessToken: String) -> Driver<User> {
-        return provider.rx.request(.getMe(accessToken: accessToken))
-            .map(User.self)
+        return provider.request(User.self, token: .getMe(accessToken: accessToken))
             .asObservable()
             .asDriverOnErrorJustNever()
     }

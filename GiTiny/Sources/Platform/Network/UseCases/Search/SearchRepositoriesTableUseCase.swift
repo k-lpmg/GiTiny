@@ -11,7 +11,7 @@ import RxCocoa
 
 final class SearchRepositoriesTableUseCase {
     
-    private let provider = MoyaProvider<GitHubSearchService>()
+    private let provider = GiTinyProvider<GitHubSearchService>()
     
     func getRepositoriesResponse(query: String, sort: GitHubSearchService.RepositoriesSort, page: Int, perPage: Int) -> Driver<Response> {
         return provider.rx.request(.repositories(query: query, sort: sort, page: page, perPage: perPage)).asDriverOnErrorJustNever()

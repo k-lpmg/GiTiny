@@ -11,11 +11,10 @@ import RxCocoa
 
 final class TrendingRepositoriesUseCase {
     
-    private let provider = MoyaProvider<TrendingService>()
+    private let provider = GiTinyProvider<TrendingService>()
     
     func getRepositories(language: String?, since: Since?, fetching: PublishRelay<Bool>) -> Driver<[TrendingRepository]> {
-        return provider.rx.request(.repositories(language: language, since: since))
-            .map([TrendingRepository].self)
+        return provider.request([TrendingRepository].self, token: .repositories(language: language, since: since))
             .do(onSuccess: { (_) in
                 fetching.accept(false)
             }, onError: { (_) in
