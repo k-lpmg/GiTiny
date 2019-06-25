@@ -433,6 +433,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6550EF8322C1F80F00B75205 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				65C43FC6226714D000347C34 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6550EF8422C1F83200B75205 /* Suites */ = {
+			isa = PBXGroup;
+			children = (
+				65C43FC4226714D000347C34 /* WebUITestSuites.swift */,
+			);
+			path = Suites;
+			sourceTree = "<group>";
+		};
 		657DAD6922C1CAFB004B1725 /* Navigators */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,8 +507,8 @@
 		658847E52266BE70000D882A /* GiTinyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				65C43FC1226714D000347C34 /* Sources */,
 				658847F22266BE70000D882A /* Info.plist */,
+				65C43FC1226714D000347C34 /* Sources */,
 			);
 			path = GiTinyUITests;
 			sourceTree = "<group>";
@@ -1082,21 +1098,21 @@
 		65C43FC1226714D000347C34 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				65C43FC6226714D000347C34 /* AppDelegate.swift */,
 				65C43FC5226714D000347C34 /* UITestRunnerViewController.swift */,
-				65C43FC7226714D000347C34 /* UITestSuitable.swift */,
-				65C43FC2226714D000347C34 /* UITestSuiteType.swift */,
-				65C43FC3226714D000347C34 /* UITestSuites */,
+				6550EF8322C1F80F00B75205 /* App */,
+				65C43FC3226714D000347C34 /* UITestSuitable */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		65C43FC3226714D000347C34 /* UITestSuites */ = {
+		65C43FC3226714D000347C34 /* UITestSuitable */ = {
 			isa = PBXGroup;
 			children = (
-				65C43FC4226714D000347C34 /* WebUITestSuites.swift */,
+				65C43FC7226714D000347C34 /* UITestSuitable.swift */,
+				65C43FC2226714D000347C34 /* UITestSuiteType.swift */,
+				6550EF8422C1F83200B75205 /* Suites */,
 			);
-			path = UITestSuites;
+			path = UITestSuitable;
 			sourceTree = "<group>";
 		};
 		65C43FCE226716A100347C34 /* GitHub */ = {
