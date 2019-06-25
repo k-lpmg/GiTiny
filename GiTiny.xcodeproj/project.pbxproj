@@ -433,6 +433,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		657DAD6922C1CAFB004B1725 /* Navigators */ = {
+			isa = PBXGroup;
+			children = (
+				6588484F2266C1D0000D882A /* MyProfileNavigator.swift */,
+				6588485B2266C1D0000D882A /* SearchNavigator.swift */,
+				658848692266C1D0000D882A /* SettingNavigator.swift */,
+				658848612266C1D0000D882A /* TrendingNavigator.swift */,
+			);
+			path = Navigators;
+			sourceTree = "<group>";
+		};
 		658847B42266BCD4000D882A = {
 			isa = PBXGroup;
 			children = (
@@ -680,6 +691,7 @@
 			isa = PBXGroup;
 			children = (
 				6588483D2266C1D0000D882A /* Cells */,
+				657DAD6922C1CAFB004B1725 /* Navigators */,
 				658848482266C1D0000D882A /* ViewControllers */,
 				6588482C2266C1D0000D882A /* ViewModels */,
 				6588486C2266C1D0000D882A /* Views */,
@@ -806,7 +818,6 @@
 		6588484B2266C1D0000D882A /* MyProfile */ = {
 			isa = PBXGroup;
 			children = (
-				6588484F2266C1D0000D882A /* MyProfileNavigator.swift */,
 				658848502266C1D0000D882A /* MyProfileViewController.swift */,
 				658848512266C1D0000D882A /* Login */,
 				6588484C2266C1D0000D882A /* Profile */,
@@ -834,7 +845,6 @@
 		658848532266C1D0000D882A /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				6588485B2266C1D0000D882A /* SearchNavigator.swift */,
 				658848542266C1D0000D882A /* SearchViewController.swift */,
 				658848552266C1D0000D882A /* Repositories */,
 				658848582266C1D0000D882A /* Users */,
@@ -863,7 +873,6 @@
 		6588485C2266C1D0000D882A /* Trending */ = {
 			isa = PBXGroup;
 			children = (
-				658848612266C1D0000D882A /* TrendingNavigator.swift */,
 				6588485E2266C1D0000D882A /* TrendingTableHeaderView.swift */,
 				6588485D2266C1D0000D882A /* TrendingViewController.swift */,
 				658848662266C1D0000D882A /* Developers */,
@@ -909,7 +918,6 @@
 		658848682266C1D0000D882A /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				658848692266C1D0000D882A /* SettingNavigator.swift */,
 				6588486B2266C1D0000D882A /* SettingSection.swift */,
 				6588486A2266C1D0000D882A /* SettingTableViewController.swift */,
 			);
